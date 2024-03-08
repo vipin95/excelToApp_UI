@@ -21,6 +21,7 @@ function Table({sites, setSearch, Header, setFillterOn}) {
                         <th>Toco</th>
                         <th>Toco Id</th>
                         <th>Lat / Long</th>
+                        <th>Distance</th>
                         <th>FM</th>
                         <th>Type</th>
                         <th>Tech. Name</th>
@@ -35,6 +36,7 @@ function Table({sites, setSearch, Header, setFillterOn}) {
                     <td>{element.toco}</td>
                     <td>{element.tocoId}</td>
                     <td>{element.Latitude+" "+element.Longitude}</td>
+                    <td>{element.distance+ "Km"}</td>
                     <td>{element.FM}</td>
                     <td>{element.towerType}</td>
                     <td>{element.technicianName}</td>

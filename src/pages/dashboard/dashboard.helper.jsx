@@ -12,6 +12,7 @@ function DashboardHelper() {
     },[fileObject]);
 
     function uploadSite(data) {
+        
         let HeaderKey = Object.keys(Header);
         let array = [];
         // console.log(Header[HeaderKey[0]]);

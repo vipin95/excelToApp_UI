@@ -13,7 +13,7 @@ function DashboardPage({setFileObject}) {;
                    <Link to={'/user/profile'}>
                     <div>
                         <img className="imgAvatar" src={process.env.PUBLIC_URL+"/assets/images/avatar.jpeg"} alt=""/>
-                        <h3>Profile</h3>
+                        <h3>Admin</h3>
                     </div>
                    </Link>
                 </div>
