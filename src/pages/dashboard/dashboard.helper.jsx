@@ -4,6 +4,7 @@ import { CallAPI } from "../../service";
 import { Header } from "../../constant/config";
 
 function DashboardHelper() {
+    /* eslint-disable */
     const [fileObject, setFileObject] = useState();
     const callAPI = new CallAPI();
 

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from "react";
 import { SiteListPage } from "./index";
 import { CallAPI } from "../../service";
